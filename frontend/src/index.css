@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css or a global stylesheet */
+.bg-custom {
+  @apply bg-gradient-to-br from-[#0e1b3c] to-[#2d162d];
+  @apply h-[100vh];
+}
